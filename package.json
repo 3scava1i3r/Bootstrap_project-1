@@ -1,9 +1,18 @@
 {
   "name": "bootstrap_project-1",
   "version": "1.0.0",
-  "description": "Project for my Bootstrap Course",
-  "main": "index.js",
+  "description": "Bootstrap#1",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^1.9.1",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {},
   "scripts": {
+    "start":"npm run lite",
+    "lite":"lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,10 +24,5 @@
   "bugs": {
     "url": "https://github.com/Escavalier/Bootstrap_project-1/issues"
   },
-  "homepage": "https://github.com/Escavalier/Bootstrap_project-1#readme",
-  "dependencies": {
-    "bootstrap": "^4.0.0",
-    "jquery": "^1.9.1",
-    "popper.js": "^1.12.9"
-  }
+  "homepage": "https://github.com/Escavalier/Bootstrap_project-1#readme"
 }
